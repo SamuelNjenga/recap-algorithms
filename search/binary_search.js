@@ -1,3 +1,4 @@
+// Time Complexity -> O(logn)
 const binary_search = (numbers, target) => {
   let left_index = 0;
   let right_index = numbers.length - 1;
@@ -13,7 +14,6 @@ const binary_search = (numbers, target) => {
       left_index = middle_index + 1;
     }
   }
-  
   return -1;
 };
 
