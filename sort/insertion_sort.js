@@ -1,3 +1,4 @@
+// Time complexity -> O(n)
 const insertion_sort = (arr) => {
   for (let i = 1; i < arr.length; i++) {
     let number_to_insert = arr[i];
