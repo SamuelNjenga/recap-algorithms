@@ -8,6 +8,7 @@ public class Main {
         list.insert(12);
         list.insertAtStart(26);
         list.insertAt(0, 4);
+        list.deleteAt(2);
         list.show();
     }
 }
