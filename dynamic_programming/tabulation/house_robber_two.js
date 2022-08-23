@@ -20,4 +20,4 @@ function maxLoot(hval, n) {
   return max_val;
 }
 
-console.log(maxLoot([5, 3, 4, 11, 2],4));
+console.log(maxLoot([5, 3, 4, 11, 2], 4));
