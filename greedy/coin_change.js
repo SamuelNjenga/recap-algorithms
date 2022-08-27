@@ -22,3 +22,4 @@ function findMin(V) {
 
 console.log(findMin(93));
 console.log(findMin(100));
+console.log(findMin(3));
